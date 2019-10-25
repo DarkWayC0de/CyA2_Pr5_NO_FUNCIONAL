@@ -55,9 +55,9 @@ cada línea.
 El progrma utilizara un archivo como entrada y un archivo de salida, su 
 ejecusión se realizara de la siguiente forma:
 
-'''bash
+```bash
 ./ER2Tree filein.txt fileout.txt
-'''
+```
 
 En el fichero de salido se imprimira una línea por cada espresión regular
 del fichero de  entrada. En cada lı́nea del fichero de salida se deberá 
@@ -66,15 +66,14 @@ el orden: infija, postfija, prefija y cada lı́nea finalizará con un número
 natural que corresponde con el número de nodos del árbol de la expresión.
 Como muestra la siguiente tabla:
 
-'''bash
+```bash
 ------------------------------------------------------
 Infija		Postfija	Prefija		Nodos
 ------------------------------------------------------
 a|b		ab|		|ab		3
 a|bc		abc&|		|ab&c		5
 (a|b)(c|d)	ab|cd|&		&|ab|cd		7
-'''
-
+```
 En la primera columna de la tabla(Infija) no se explicita el operador de 
 concatenación, deñ mismo modo que no se hace en las espreciones regulares
 del fichero de entrada. 
